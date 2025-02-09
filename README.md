@@ -2,9 +2,10 @@
 
 # Download
 
-<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+<a href="https://goo.gl/WXW8Dc">
   <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
+
 
 <a href='https://ko-fi.com/A160LCC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
@@ -22,6 +23,15 @@ compile 'com.github.florent37:androidanalytics-google:1.0.0'
 Analytics.registerProvider(
       new GoogleAnalyticsProvider(this, R.xml.app_tracker)
 );
+```
+
+example of `app_tracker.xml` :
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId" translatable="false">UA-XXXXXXX-X</string>
+</resources>
 ```
 
 # Send events
@@ -77,11 +87,14 @@ Analytics.registerProvider(
 
 # Credits
 
-Author: Florent Champigny [http://www.florentchampigny.com/](http://www.florentchampigny.com/)
+Author: Florent Champigny
 
-<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+Fiches Plateau Moto : [https://www.fiches-plateau-moto.fr/](https://www.fiches-plateau-moto.fr/)
+
+<a href="https://goo.gl/WXW8Dc">
   <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
+
 <a href="https://plus.google.com/+florentchampigny">
   <img alt="Follow me on Google+"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
